@@ -17,12 +17,12 @@ Endpoints
 # for get all news
 localhost:3000/news/list
 
-#for get one new
-localhost:3000/news/9
+# for get one new
+localhost:3000/news/{id}
 
 
-#post request for create news
-localhost:3000/news/9
+# post request for create news
+localhost:3000/news/item
 #body: 
 {
   "title": "New Title",
