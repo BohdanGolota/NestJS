@@ -16,6 +16,11 @@ Endpoints
 ```bash
 # for get all news
 localhost:3000/news/list
+The list endpoint should accept GET parameters for filtering:
+1. searchTerm — searches by the content of the title and short description;
+2. publishedBefore — searches for news published before (or including) the parameter date;
+3. publishedAfter — searches for news published after (or including) the parameter date;
+
 
 # for get one new
 localhost:3000/news/{id}
