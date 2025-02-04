@@ -1,11 +1,11 @@
 # compiled output
-/news-service/dist
-/news-service/node_modules
-/news-service/build
+./news-service/dist
+./news-service/node_modules
+./news-service/build
 
-/api-public/dist
-/api-public/node_modules
-/api-public/build
+./api-public/dist
+./api-public/node_modules
+./api-public/build
 
 # Tests
 /coverage
